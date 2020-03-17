@@ -19,6 +19,11 @@ npm start
 ```
 The Geoportal is available at ```http://localhost:3001```
 
+To run de developement server at ```http://localhost:3003```
+```
+npm run hot
+```
+
 To stop the developement server :
 ```
 npm stop
