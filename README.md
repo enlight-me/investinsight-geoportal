@@ -32,7 +32,7 @@ npm stop
 To deploy to github pages :
 ```
 export NODE_OPTIONS=--max_old_space_size=8192
-npm run build
+npm run gulp release
 npm run deploy
 ```
 

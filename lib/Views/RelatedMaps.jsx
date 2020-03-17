@@ -27,117 +27,57 @@ function RelatedMaps(props) {
       <p>Clicking on a map below will open it in a separate window or tab.</p>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://nationalmap.gov.au/renewables/">
+        <a target="_blank" href="https://maps.digitalearth.africa/">
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/aremi.jpg")}
-            alt="AREMI"
+            src={require("../../wwwroot/images/de-africa.png")}
+            alt="DEAfrica"
           />
         </a>
 
         <a
           target="_blank"
           className={Styles.link}
-          href="http://nationalmap.gov.au/renewables/"
+          href="https://www.digitalearthafrica.org/"
         >
-          AREMI
+          DEAfrica
         </a>
 
         <p>
-          AREMI provides access to Australian spatial data relevant to the
-          Renewable Energy industry, sourced from Government, Industry and
-          Research.
+          The Digital Earth Africa (DE Africa) Map is a website for map-based
+          access to spatial data. It’s developed by Data61 CSIRO in
+          collaboration with Geoscience Australia and aims to provide easy
+          access to spatial data on the African continent to help increase an
+          understanding of using satellite data for better decisions.
         </p>
       </div>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://nationalmap.gov.au/northernaustralia/">
+        <a target="_blank" href="https://www.nationalmap.gov.au/investormap/">
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/northernaustralia.jpg")}
-            alt="Northern Australia"
+            src={require("../../wwwroot/images/investor-banner.svg")}
+            alt="DEAfrica"
           />
         </a>
 
         <a
           target="_blank"
           className={Styles.link}
-          href="http://nationalmap.gov.au/northernaustralia/"
+          href="https://www.nationalmap.gov.au/investormap/"
         >
-          Northern Australia
+          Australia InvestorMap
         </a>
 
         <p>
-          The Northern Australia NationalMap forms part of the Government's
-          commitment to developing northern Australia by providing easy access
-          to authoritative and other spatial data on northern Australia to
-          governments, business and the public. More information on the
-          Government's White Paper on Developing Northern Australia is available
-          here:{" "}
-          <a
-            target="_blank"
-            className={Styles.link}
-            href="https://northernaustralia.dpmc.gov.au"
-          >
-            https://northernaustralia.dpmc.gov.au
-          </a>
-          .
-        </p>
-      </div>
-
-      <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://neiiviewer.nicta.com.au">
-          <img
-            className={Styles.image}
-            src={require("../../wwwroot/images/neii.jpg")}
-            alt="NEII Viewer"
-          />
-        </a>
-
-        <a
-          target="_blank"
-          className={Styles.link}
-          href="http://www.neii.gov.au/viewer/"
-        >
-          NEII Viewer
-        </a>
-
-        <p>
-          The National Environmental Information Infrastructure (NEII) is an
-          information platform designed to improve discovery, access and re-use
-          of nationally significant environmental data. More information on the
-          NEII is available here:{" "}
-          <a
-            target="_blank"
-            className={Styles.link}
-            href="http://neii.gov.au/data-viewer"
-          >
-            neii.gov.au/data-viewer
-          </a>
-          .
-        </p>
-      </div>
-
-      <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://map.aurin.org.au">
-          <img
-            className={Styles.image}
-            src={require("../../wwwroot/images/aurin-map.jpg")}
-            alt="AURIN Map"
-          />
-        </a>
-
-        <a
-          target="_blank"
-          className={Styles.link}
-          href="http://map.aurin.org.au"
-        >
-          AURIN Map
-        </a>
-
-        <p>
-          AURIN Map provides access to datasets on urban infrastructure for
-          urban researchers, policy and decision makers.
+          The Investor Map is a website for map-based access to spatial data
+          from Australian government agencies. It is an initiative of the
+          Australian Trade and Investment Commission (Austrade), developed by
+          Data61 CSIRO in collaboration with Geoscience Australia. <br />
+          The Investor Map is an extension of the Australian Government’s
+          NationalMap initiative. It aims to provide easy access to spatial and
+          other data on Australia to help encourage investment across the
+          country.
         </p>
       </div>
     </MenuPanel>
