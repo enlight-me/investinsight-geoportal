@@ -36,6 +36,13 @@ npm run gulp release
 npm run deploy
 ```
 
+To style GeoJSON files see :
+
+ [https://github.com/TerriaJS/terriajs/issues/1203](https://github.com/TerriaJS/terriajs/issues/1203)
+ 
+ [https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0](https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0)
+
+
 Terria Map
 ==========
 
