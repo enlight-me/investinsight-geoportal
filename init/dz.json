@@ -8,15 +8,89 @@
   "services": [],
   "catalog": [
     {
-      "name": "GeoJSON files",
+      "name": "Algerie / الجزائر",
       "type": "group",
       "items": [
         {
-          "name": "Wilaya (GeoJSON)",
+          "name": "COVID-19 par Wilaya / كوفيد-19 عبر الولايات",
           "type": "geojson",
-          "url": "data/wilaya.geojson"          
+          "url": "data/wilaya.geojson",
+          "description": "<p>Distribution des cas d'infection par le COVID-19 par Wialya Algériennes</p>",
+          "initialMessage": {
+            "title": "COVID-19 par Wilaya / كوفيد-19 عبر الولايات",
+            "content": "<p>Distribution des cas d'infection par le COVID-19 par Wialya Algériennes</p>",
+            "key": "MyTestingKey"
+          }
+        },
+        {
+          "name": "COVID-19 par Villes / كوفيد-19 حسب المدن",
+          "type": "geojson",
+          "url": "data/cities.geojson",
+          "style": {
+            "opacity": "0.7"
+          },
+          "description": "<p>Distribution des cas d'infection par le COVID-19 par Villes Algériennes</p>",
+          "initialMessage": {
+            "title": "COVID-19 par Wilaya / كوفيد-19 عبر الولايات",
+            "content": "<p>Distribution des cas d'infection par le COVID-19 par Villes Algériennes</p>",
+            "key": "MyTestingKey"
+          }
         }
       ]
+    },
+    {
+      "name": "NASA- Socioeconomic Data and Applications Centre (SEDAC)",
+      "type": "group",
+      "items": [
+        {
+          "name": "NASA- Socioeconomic Data and Applications Centre (SEDAC)",
+          "description": "",
+          "dataCustodian": "",
+          "url": "https://sedac.ciesin.columbia.edu/geoserver/wms",
+          "type": "wms-getCapabilities"
+      }
+      ]
+    },    
+    {
+      "name": "Digital Earth Africa - OGC Web Services",
+      "type": "group",
+      "items": [
+        {
+          "name": "Digital Earth Africa - OGC Web Services",
+          "description": "",
+          "dataCustodian": "",
+          "url": "https://ows.digitalearth.africa",
+          "type": "wms-getCapabilities"
+      }
+      ]
+    },    
+    {
+      "name": "GEOGLAM RAPP Map",
+      "type": "group",
+      "items": [
+        {
+          "name": "GEOGLAM RAPP Map",
+          "description": "The GEOGLAM RAPP Map is the spatial data platform for the Rangeland and Pasture Productivity activity which is part of the Group on Earth Observations Global Agricultural Monitoring (GEOGLAM) initiative.",
+          "dataCustodian": "",
+          "url": "http://gsky.nci.org.au/ows/geoglam",
+          "type": "wms-getCapabilities"
+      }
+      ]
     }
+,    
+    {
+      "name": "NATURAL Hazards",
+      "type": "group",
+      "items": [
+        {
+          "name": "NATURAL Hazards",
+          "description": "",
+          "dataCustodian": "",
+          "url": "https://db1.unepgrid.ch/geoserver/wms",
+          "type": "wms-getCapabilities"
+      }
+      ]
+    }
+
   ]
 }
