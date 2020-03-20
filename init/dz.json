@@ -15,6 +15,7 @@
           "name": "COVID-19 par Wilaya / كوفيد-19 عبر الولايات",
           "type": "geojson",
           "url": "data/wilaya.geojson",
+          "isShown": "true",
           "description": "<p>Distribution des cas d'infection par le COVID-19 par Wialya Algériennes</p>",
           "initialMessage": {
             "title": "COVID-19 par Wilaya / كوفيد-19 عبر الولايات",
@@ -48,9 +49,9 @@
           "dataCustodian": "",
           "url": "https://sedac.ciesin.columbia.edu/geoserver/wms",
           "type": "wms-getCapabilities"
-      }
+        }
       ]
-    },    
+    },
     {
       "name": "Digital Earth Africa - OGC Web Services",
       "type": "group",
@@ -61,9 +62,9 @@
           "dataCustodian": "",
           "url": "https://ows.digitalearth.africa",
           "type": "wms-getCapabilities"
-      }
+        }
       ]
-    },    
+    },
     {
       "name": "GEOGLAM RAPP Map",
       "type": "group",
@@ -74,10 +75,9 @@
           "dataCustodian": "",
           "url": "http://gsky.nci.org.au/ows/geoglam",
           "type": "wms-getCapabilities"
-      }
+        }
       ]
-    }
-,    
+    },
     {
       "name": "NATURAL Hazards",
       "type": "group",
@@ -88,9 +88,8 @@
           "dataCustodian": "",
           "url": "https://db1.unepgrid.ch/geoserver/wms",
           "type": "wms-getCapabilities"
-      }
+        }
       ]
     }
-
   ]
 }
