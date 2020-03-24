@@ -6,7 +6,39 @@
     "north": 45
   },
   "services": [],
-  "catalog": [    
+  "catalog": [
+    {
+      "name": "Algerie / الجزائر",
+      "type": "group",
+      "items": [
+        {
+          "name": "COVID-19 par Wilaya / كوفيد-19 عبر الولايات",
+          "type": "geojson",
+          "url": "data/wilaya.geojson",
+          "isShown": "true",
+          "description": "<p>Distribution des cas d'infection par le COVID-19 par Wialya Algériennes</p>",
+          "initialMessage": {
+            "title": "COVID-19 par Wilaya / كوفيد-19 عبر الولايات",
+            "content": "<p>Distribution des cas d'infection par le COVID-19 par Wialya Algériennes</p>",
+            "key": "MyTestingKey"
+          }
+        },
+        {
+          "name": "COVID-19 par Villes / كوفيد-19 حسب المدن",
+          "type": "geojson",
+          "url": "data/cities.geojson",
+          "style": {
+            "opacity": "0.7"
+          },
+          "description": "<p>Distribution des cas d'infection par le COVID-19 par Villes Algériennes</p>",
+          "initialMessage": {
+            "title": "COVID-19 par Wilaya / كوفيد-19 عبر الولايات",
+            "content": "<p>Distribution des cas d'infection par le COVID-19 par Villes Algériennes</p>",
+            "key": "MyTestingKey"
+          }
+        }
+      ]
+    },
     {
       "name": "NASA- Socioeconomic Data and Applications Centre (SEDAC)",
       "type": "group",
