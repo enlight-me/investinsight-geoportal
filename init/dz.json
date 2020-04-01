@@ -6,7 +6,46 @@
     "north": 45
   },
   "services": [],
-  "catalog": [    
+  "catalog": [
+    {
+        "name": "UNI HEIDLBERG osm-wms.de",
+        "type": "group",
+        "items": [
+          {
+            "name": "UNI HEIDLBERG osm-wms.de",
+            "description": "",
+            "dataCustodian": "",
+            "url": "http://maps.heigit.org/osm-wms/service",
+            "type": "wms-getCapabilities"
+          }
+        ]
+      },    
+      {
+      "name": "United States National Imagery WMTS",
+      "type": "group",
+      "items": [
+        {
+          "name": "United States National Imagery WMTS",
+          "description": "",
+          "dataCustodian": "",
+          "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer",
+          "type": "esri-mapServer"
+        }
+      ]
+    },
+    {
+      "name": "United States National Topo Base WMTS",
+      "type": "group",
+      "items": [
+        {
+          "name": "United States National Topo Base WMTS",
+          "description": "",
+          "dataCustodian": "",
+          "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer",
+          "type": "esri-mapServer"
+        }
+      ]
+    },    
     {
       "name": "NASA- Socioeconomic Data and Applications Centre (SEDAC)",
       "type": "group",
